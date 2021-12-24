@@ -1,0 +1,42 @@
+*{
+    background-color: rgb(253, 248, 238);
+}
+
+.login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.loginTitle{
+    margin-bottom: 10px;
+}
+.loginFrom{
+    display: flex;
+    flex-direction: column;
+}
+.loginBtn{
+    margin: 10px;
+    background-color: indigo;
+    padding: 3px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+}
+.loginInput{
+    padding: 7px;
+    font-size: 18px;
+    text-align: center;
+    background-color: teal;
+    color: black;
+    margin:3px;
+    border:2px solid black;
+    border-radius: 5px;
+}
+form input::placeholder{
+    color: white;
+    text-transform: capitalize;
+}

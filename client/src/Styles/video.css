@@ -1,0 +1,20 @@
+.video{
+    height: 100vh;
+    width: 100vw;
+}
+.video video{
+    width: 100vw;
+    height: 100vh;
+}
+.back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 2.4%;
+    left: 8%;
+    /* z-index: 99; */
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+}
